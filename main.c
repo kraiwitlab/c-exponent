@@ -14,5 +14,5 @@ int main()
     scanf("%lf", &exponent);
 
     result = pow(base, exponent);
-    printf("result is %2.f\n", result);
+    printf("result is %.2lf\n", result);
 }
